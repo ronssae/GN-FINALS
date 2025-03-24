@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 5972103253793004681}
   - component: {fileID: 7074142139274290324}
   - component: {fileID: 5568834111333976362}
+  - component: {fileID: 7625122566962312354}
+  - component: {fileID: 3511428246602679318}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -124,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3987067027
+  GlobalObjectIdHash: 2522831971
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -200,3 +202,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &7625122566962312354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775029844073822943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac866a0821c31049ae59eff19d41db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  prefab: {fileID: 4483027921054517788, guid: 004e076ef5685ee4a84e7780bdee1f81, type: 3}
+  numberOfPrefabs: 10
+--- !u!114 &3511428246602679318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775029844073822943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163dd4980b93e0a41a5c98c29111a1d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  pickupRadius: 2
+  pickupTag: Pickup

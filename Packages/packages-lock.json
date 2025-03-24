@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.gitamend.unityutils": {
-      "version": "file:C:/Users/CIIT/Downloads/Unity-Utils-master/Unity-Utils-master",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.ai.navigation": {
       "version": "2.0.5",
       "depth": 0,
