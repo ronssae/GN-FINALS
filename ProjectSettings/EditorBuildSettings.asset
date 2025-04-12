@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Widgets/Scenes/WidgetsQuickstart.unity
     guid: 066bbcb20b015d045b0d62b0a1f237ef
   - enabled: 1
-    path: Assets/NGO_Minimal_Setup/NGO_Setup.unity
+    path: Assets/Lobbying Folder/Lobby.unity
     guid: 886808fd77025094c990c6edbf489964
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
